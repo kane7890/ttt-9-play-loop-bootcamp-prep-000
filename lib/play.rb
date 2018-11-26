@@ -42,5 +42,6 @@ def play(board)
   while count < 9 
     play(board)
     count += 1
+    puts "count:" + count
   end
 end
