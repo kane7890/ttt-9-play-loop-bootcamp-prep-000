@@ -40,7 +40,7 @@ end
 def play(board)
   count = 0 
   while count < 9 
-    play(board)
+    turn(board)
     count += 1
     puts "count:" + count
   end
